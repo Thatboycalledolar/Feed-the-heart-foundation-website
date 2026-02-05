@@ -53,10 +53,10 @@ export default function Navbar() {
       {open && (
         <div  className={`md:hidden flex flex-col items-center gap-6 pb-10 bg-white shadow-md transition-all duration-300 overflow-hidden ${
           open ? "max-h-96 py-4" : "max-h-0"}`}>
-          <Link to="/" onClick={() => setOpen(false)}>Home</Link>
-          <Link to="/about" onClick={() => setOpen(false)}>About</Link>
-          <Link to="/gallery" onClick={() => setOpen(false)}>Gallery</Link>
-          <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
+          <Link to="/" onClick={() => setOpen(false)} className="text-[#333333] font-medium">Home</Link>
+          <Link to="/about" onClick={() => setOpen(false)} className="text-[#333333] font-medium">About</Link>
+          <Link to="/gallery" onClick={() => setOpen(false)} className="text-[#333333] font-medium">Gallery</Link>
+          <Link to="/contact" onClick={() => setOpen(false)} className="text-[#333333] font-medium">Contact</Link>
           <Link to="/donate" onClick={() => setOpen(false)}><button className="bg-red-600 flex text-white text-[1rem] font-bold px-4 py-2 rounded-md gap-3 hover:bg-red-700 cursor-pointer"> Donate Now <Heart color="white"/></button></Link>
            
         </div>

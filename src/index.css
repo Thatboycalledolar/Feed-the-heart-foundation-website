@@ -14,3 +14,9 @@
   }
 
 }
+
+:root {
+  --color-primary: #003D9E;
+  --color-secondary: #FFD602;
+  --color-black: #333333;
+}
