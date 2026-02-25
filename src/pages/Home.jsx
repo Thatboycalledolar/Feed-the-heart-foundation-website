@@ -1,6 +1,7 @@
 import ServiceCard from "../components/ServiceCard";
 import RecordsCard from "../components/RecordsCard";
 import GenBtn from "../components/GenBtn";
+import { Link } from "react-router-dom";
   
 
 
