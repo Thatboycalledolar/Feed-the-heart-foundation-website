@@ -15,7 +15,7 @@ export default function Footer() {
 
             <div id="footer-logo">
               <div className="max-w-7xl mx-auto px-6 md:px-0 text-center flex flex-col items-center md:items-start gap-2 mb-12 md:mb-0">
-                <img src="/public/logo 2.svg" className="" alt="" />
+                <img src="/logo 2.svg" className="" alt="" />
                 <p className="text-[10px] mb-4 md:text-start">&copy; {new Date().getFullYear()} All rights reserved.</p>
                 <p className="text-[12px] md:text-start md:w-[500px] md:text-[14px]">Feed The Heart Foundation is a humanitarian non-governmental organization committed to restoring hope and dignity to vulnerable individuals and communities</p>
                 <button className="bg-[var(--color-secondary)] flex text-[var(--color-primary)] text-[1rem] font-bold px-4 py-2 rounded-md gap-3 cursor-pointer mt-4"> Donate Now <Heart color="blue"/></button>
