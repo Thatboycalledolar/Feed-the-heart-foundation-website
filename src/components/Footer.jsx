@@ -2,6 +2,7 @@ import VolunteerWithUsCard from "./VolunteerWithUsCard";
 import { Heart, Instagram, Linkedin } from "lucide-react";
 import { Facebook } from "lucide-react";
 
+
 export default function Footer() {
   return (
     <footer className="bg-[var(--color-primary)] flex flex-col items-center w-full py-14 px-10">

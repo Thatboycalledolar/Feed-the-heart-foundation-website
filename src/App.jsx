@@ -1,4 +1,5 @@
 import { BrowserRouter,Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <div className="pt-24 min-h-screen flex flex-col justify-start items-center">
       <Routes> 
