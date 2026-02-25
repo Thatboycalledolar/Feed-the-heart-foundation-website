@@ -21,9 +21,9 @@ export default function Navbar() {
           <Link to="/contact" className="hover:text-(--color-primary)">Contact</Link>
         </div>
         <div className="hidden md:flex">
-          
-            <button className="bg-red-600 flex items-center text-white text-[14px] font-semibold px-4 py-2 rounded-md gap-2 hover:bg-red-700 cursor-pointer" onClick={() => window.location.href="/donate"}> Donate Now <Heart color="white"/></button>
-          
+          <Link to="/donate">
+            <button className="bg-red-600 flex items-center text-white text-[14px] font-semibold px-4 py-2 rounded-md gap-2 hover:bg-red-700 cursor-pointer"> Donate Now <Heart color="white"/></button>
+          </Link>
         </div>
         
 
