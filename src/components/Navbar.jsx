@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}
-        <a href="/"><img src="./public/feed-the-heart-logo.svg" alt="Feed the Heart Logo" className="h-14
+        <a href="/"><img src="/feed-the-heart-logo.svg" alt="Feed the Heart Logo" className="h-14
          w-auto" /></a>
 
         {/* Desktop Links */}
