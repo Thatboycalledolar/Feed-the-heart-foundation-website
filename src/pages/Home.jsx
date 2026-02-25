@@ -16,7 +16,9 @@ export default function Home() {
             <p className="text-center text-[12px] md:text-[14px] text-[#333333] font-medium max-w-[90%] md:max-w-[70%]">Nigeria faces significant poverty, with estimates showing over half the population struggling, particularly in rural areas (around 75.5%) compared to urban areas (around 41.3%), affecting roughly 139 million people by 2025, with children and uneducated adults being disproportionately impacted, despite recent economic growth figures, highlighting severe inequality and access issues to basic services like water and sanitation. </p>
           </div>
         <div className="hero-btn mb-6 ">
-          <GenBtn link="/donate" text="Lend a helping hand"/>
+          <Link to="/donate"> <GenBtn text="Lend a helping hand"/>
+          </Link>
+          
         </div>
            <img className="w-full md:max-w-[1200px] mb-12 object-cover h-[80%] md:h-[400px] rounded-2xl" src="/images/homepage1.JPG" alt="image of kids in the slum" />
     
@@ -37,7 +39,9 @@ export default function Home() {
             <h3 className="text-center text-[18px] md:text-3xl font-bold">This is what we stand for</h3>
             <p className="text-center text-[12px] md:text-[14px]">Feed The Heart Foundation is a humanitarian non-governmental organization committed to restoring hope and dignity to vulnerable individuals and communities. We focus on feeding the needy, supporting children’s education, and driving sustainable community development initiatives that empower people to thrive.</p>
         </div>
-        <GenBtn link="/about" text="Know more about us" />
+        <Link to="/about"> <GenBtn text="Know more about us" />
+        </Link>
+        
       </div>
 
        {/* what-we-do section */}
@@ -74,7 +78,8 @@ export default function Home() {
       <div id="donate-today" className="flex flex-col items-center gap-1 leading-tight mt-6 mb-10">
           <h3 className="text-center text-[26px] md:text-[42px] font-semibold mt-12 md:mb-2">Your Donation can <br />change lives</h3>
           <p className="text-center text-[12px] md:text-[16px] mb-6">We need you on this life changing journey, walk with us</p>
-          <GenBtn link="/donate" text="Lend a helping hand" />
+          <Link to="/donate"> <GenBtn text="Lend a helping hand" />
+          </Link>
         </div>
 
       
