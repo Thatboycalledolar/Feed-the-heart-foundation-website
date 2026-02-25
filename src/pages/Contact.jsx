@@ -15,7 +15,7 @@ export default function Contact() {
         </div>
         <div className="flex flex-col items-center justify-center gap-4">
           <div className=" p-3 bg-(--color-secondary) rounded-lg shadow-lg"><PhoneCall width={25} height={25} /></div>
-          <a href="tel:+23409876543243" className="md:hover:underline md:no-underline underline underline-offset-3 text-(--color-primary) font-semibold md:text-xl">+234 806 178 4887</a>
+          <a href="tel:+2348061784887" className="md:hover:underline md:no-underline underline underline-offset-3 text-(--color-primary) font-semibold md:text-xl">+234 806 178 4887</a>
         </div>
         <div className="flex flex-col items-center justify-center gap-4">
           <div className=" p-3 bg-(--color-secondary) rounded-lg shadow-lg"><Globe width={25} height={25} /></div>
