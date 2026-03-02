@@ -14,17 +14,17 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Navbar />
-      <div className="pt-24 min-h-screen flex flex-col justify-start items-center">
-      <Routes> 
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/donate" element={<Donate />} />
-      </Routes>
-      </div>
-      <Footer />
+        <Navbar />
+          <div className="pt-24 min-h-screen flex flex-col justify-start items-center">
+            <Routes> 
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/donate" element={<Donate />} />
+            </Routes>
+          </div>
+        <Footer />
     </BrowserRouter>
   );
 }
