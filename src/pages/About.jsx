@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="flex flex-col items-center mt-12 md:mt-24 mb-30 justify-center gap-12 px-8 md:px-12">
       <div id="header-wrapper" className="flex flex-col items-center mb-18 md:mb-24 gap-4">
-        <h1 className="font-header text-[48px] md:text-[64px] tracking-tighter text-center leading-[48px] md:leading-[64px]"><span className="text-(--color-primary)">Hearts</span> <br />Behind the Heart</h1>
+        <h1 className="font-header text-[48px] md:text-[64px] tracking-tighter font-medium text-center leading-[48px] md:leading-[64px]"><span className="text-(--color-primary)">Hearts</span> <br />Behind the Heart</h1>
         <p className="text-(--color-black)/60 font-medium text-[16px] md:text-[20px]">Here is what we stand for</p>
       </div>
 

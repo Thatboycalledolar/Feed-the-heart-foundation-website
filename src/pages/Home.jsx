@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center gap-8" id="hero-section">
         <div className="flex flex-col gap-6 items-center w-full my-8 md:my-8 lg:my-16">
-          <h1 className="font-header text-[48px] tracking-tighter font-medium lg:text-[76px] md:text-[62px] text-center w-full md:w-[90%] leading-12 mb-12 md:leading-16 lg:leading-20">Improving life now for <span className="text-[var(--color-primary)]"> <br />A better Tomorrow,</span> <br />walk with Us!
+          <h1 className="font-header text-[48px] tracking-tighter font-medium lg:text-[76px] md:text-[62px] text-center w-full md:w-[90%] leading-12 mb-12 md:leading-16 lg:leading-20">Improving life Today for <span className="text-[var(--color-primary)]"> <br />A better Tomorrow,</span> <br />walk with Us!
           </h1>
           <p className="text-center text-[12px] md:text-[14px] text-[#333333] font-medium max-w-[90%] md:max-w-[80%]">Nigeria faces significant poverty, with estimates showing over half the population struggling, particularly in rural areas (around 75.5%) compared to urban areas (around 41.3%), affecting roughly 139 million people by 2025, with children and uneducated adults being disproportionately impacted, despite recent economic growth figures, highlighting severe inequality and access issues to basic services like water and sanitation. </p>
         </div>
