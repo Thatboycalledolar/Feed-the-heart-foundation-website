@@ -14,7 +14,7 @@ export default function Navbar() {
          w-auto" /></a>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex text-[14px] gap-8 font-header  font-medium">
+        <div className="hidden md:flex text-[16px] gap-8 font-header font-medium">
           <Link to="/" className="hover:text-(--color-primary)">Home</Link>
           <Link to="/about" className="hover:text-(--color-primary)">About</Link>
           <Link to="/gallery" className="hover:text-(--color-primary)">Gallery</Link>
@@ -34,15 +34,15 @@ export default function Navbar() {
           aria-label="Toggle Menu"
         >
           <span
-            className={`absolute h-0.5 w-6 bg-black transform transition duration-300 ${open ? "rotate-45" : "-translate-y-2"
+            className={`absolute h-[3px] w-6 bg-black transform transition duration-300 ${open ? "rotate-45" : "-translate-y-2"
               }`}
           />
           <span
-            className={`absolute h-0.5 w-6 bg-black transition duration-300 ${open ? "opacity-0" : ""
+            className={`absolute h-[3px] w-6 bg-black transition duration-300 ${open ? "opacity-0" : ""
               }`}
           />
           <span
-            className={`absolute h-0.5 w-6 bg-black transform transition duration-300 ${open ? "-rotate-45" : "translate-y-2"
+            className={`absolute h-[3px] w-6 bg-black transform transition duration-300 ${open ? "-rotate-45" : "translate-y-2"
               }`}
           />
         </button>
@@ -50,11 +50,11 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className={`md:hidden flex flex-col items-center gap-6 pb-10 bg-white shadow-md transition-all duration-300 overflow-hidden ${open ? "max-h-96 py-4" : "max-h-0"}`}>
-          <Link to="/" onClick={() => setOpen(false)} className="text-[#333333] font-medium text-[14px]">Home</Link>
-          <Link to="/about" onClick={() => setOpen(false)} className="text-[#333333] font-medium text-[14px]">About</Link>
-          <Link to="/gallery" onClick={() => setOpen(false)} className="text-[#333333] font-medium text-[14px]">Gallery</Link>
-          <Link to="/contact" onClick={() => setOpen(false)} className="text-[#333333] font-medium text-[14px] mb-4">Contact</Link>
+        <div className={`md:hidden flex flex-col items-center gap-8 pb-10 bg-white text-[16px] shadow-md transition-all duration-300 overflow-hidden ${open ? "max-h-96 py-4" : "max-h-0"}`}>
+          <Link to="/" onClick={() => setOpen(false)} className="text-[#333333] font-medium">Home</Link>
+          <Link to="/about" onClick={() => setOpen(false)} className="text-[#333333] font-medium ">About</Link>
+          <Link to="/gallery" onClick={() => setOpen(false)} className="text-[#333333] font-medium ">Gallery</Link>
+          <Link to="/contact" onClick={() => setOpen(false)} className="text-[#333333] font-medium  mb-4">Contact</Link>
           <Link to="/donate" onClick={() => setOpen(false)}><button className="bg-red-600 flex text-white text-[14px] items-center font-semibold px-4 py-2 rounded-md gap-2 hover:bg-red-700 cursor-pointer"> Donate Now <Heart color="white" /></button></Link>
 
         </div>

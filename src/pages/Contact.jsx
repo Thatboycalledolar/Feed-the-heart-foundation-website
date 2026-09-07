@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="flex flex-col items-center mt-12 md:mt-16 lg:mt-20 mb-30 justify-center gap-12 px-8 md:px-12 w-full md:max-w-[1200px]">
       <div id="header-wrapper" className="flex flex-col items-center md:gap-4 mb-8 md:mb-12 lg:mb-16">
         <h1 className="font-header text-center leading-12 md:leading-18 tracking-tighter font-medium text-[48px] md:text-[64px] lg:text-[76px] mb-4 md:mb-6 lg:mb-8">Get more information or Volunteer with Us</h1>
-        <p className="text-[var(--color-black)] font-medium text-[14px] text-center md:text-[18px] leading-tight">Need more information, want to volunteer or partner with us? <br /> Here are different ways you can reach us.</p>
+        <p className="text-(--color-black)/60 bg-gray-100 px-[24px] py-[4px] tracking-tight rounded-[4px] font-medium text-[16px] md:text-[20px] text-center">Need more information, want to volunteer or partner with us? <br /> Here are different ways you can reach us.</p>
       </div>
 
       <div id="contact-info" className="grid grid-cols-1 md:grid-cols-2 justify-center w-full gap-12">
