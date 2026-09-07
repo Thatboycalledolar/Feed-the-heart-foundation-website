@@ -6,7 +6,7 @@ export default function About() {
     <div className="flex flex-col items-center mt-12 md:mt-24 mb-30 justify-center gap-12 px-8 md:px-12">
       <div id="header-wrapper" className="flex flex-col items-center mb-18 md:mb-24 gap-8">
         <h1 className="font-header text-[52px] md:text-[72px] tracking-tighter font-medium text-center leading-[110%] md:leading-[64px]"><span className="text-(--color-primary)">Hearts</span> <br />Behind the Heart</h1>
-        <p className="text-(--color-black)/60 bg-gray-100 px-[24px] py-[4px] tracking-tight rounded-[4px] font-medium text-[16px] md:text-[20px]">Here is what we stand for</p>
+        <p className="text-(--color-black)/60 bg-gray-100 px-[24px] py-[4px] tracking-tight rounded-[4px] font-medium text-[16px] md:text-[20px] text-center">Here is what we stand for</p>
       </div>
 
       <div id="cards-wrapper" className="flex flex-col items-center gap-48  md:gap-24 max-w-[1200px] w-full">
